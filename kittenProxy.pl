@@ -15,10 +15,9 @@ my %PLACE_HOLDERS = (
   cats   => 'http://placekitten.com/WIDTH/HEIGHT',
   dogs   => 'http://placedog.com/WIDTH/HEIGHT',
   apes   => 'http://placeape.com/WIDTH/HEIGHT',
-  random => 'https://unsplash.it/200/300/?randomT',
-  puppy  => 'http://loremflickr.com/g/320/240/puppy',
-  sheen  => 'http://loremflickr.com/g/320/240/sheen',
-  samdoge  => 'http://dogr.io/wow/suchproxy/muchsamuellord/manyhackedplanets.png',
+  random => 'https://unsplash.it/WIDTH/HEIGHT/?random',
+  puppy  => 'http://loremflickr.com/g/WIDTH/HEIGHT/puppy',
+  sheen  => 'http://loremflickr.com/g/WIDTH/HEIGHT/sheen',
 );
 $PLACE_HOLDERS{$type} || die "I don't know how to replace that: $type";
 
