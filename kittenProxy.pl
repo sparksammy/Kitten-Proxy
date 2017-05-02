@@ -8,16 +8,17 @@ use LWP::Simple qw($ua get);
 $ua->agent('Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0');
 
 my($type, $port) = @ARGV;
-$type ||= "cats";
-$port ||= 8080;
+$type ||= "samdoge";
+$port ||= 0987;
 
 my %PLACE_HOLDERS = (
   cats   => 'http://placekitten.com/WIDTH/HEIGHT',
   dogs   => 'http://placedog.com/WIDTH/HEIGHT',
   apes   => 'http://placeape.com/WIDTH/HEIGHT',
-  random => 'http://pipsum.com/WIDTHxHEIGHT',
-  puppy  => 'http://placepuppy.it/WIDTH/HEIGHT',
-  sheen  => 'http://placesheen.com/WIDTH/HEIGHT',
+  random => 'https://unsplash.it/200/300/?randomT',
+  puppy  => 'http://loremflickr.com/g/320/240/puppy',
+  sheen  => 'http://loremflickr.com/g/320/240/sheen',
+  samdoge  => 'http://dogr.io/wow/suchproxy/muchsamuellord/manyhackedplanets.png',
 );
 $PLACE_HOLDERS{$type} || die "I don't know how to replace that: $type";
 
