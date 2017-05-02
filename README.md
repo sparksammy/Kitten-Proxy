@@ -1,7 +1,7 @@
-Kitten-Proxy
+Kitten-Proxy++
 ============
 
-A proxy that replaces all images by cats or other animals
+A proxy that replaces all images by cats or other things
 
 Installation
 ------------
