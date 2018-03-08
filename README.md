@@ -8,12 +8,12 @@ Installation
 Just install the dependences and download the script:
 
     $ sudo apt-get install libhttp-proxy-perl libimager-perl
-    $ wget https://raw.github.com/DavidEGx/Kitten-Proxy/master/kittenProxy.pl
+    $ wget https://raw.github.com/sparksammy/Kitten-ProxyPlusPlus/master/kittenProxy.pl
     $ chmod +x kittenProxy.pl
 
 Usage
 -----
-    $ ./kittenProxy.pl [ cats | dogs | apes | random | puppy | sheen ]
+    $ ./kittenProxy.pl [ cats | dogs | apes | random | puppy | troll ]
     
 Video demo
 ----------
